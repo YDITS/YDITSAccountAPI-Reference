@@ -5,9 +5,9 @@ URL:[/ydits-api/ydits-account/regist.php](https://api.schnetworks.net/ydits-api/
 
 ## **URL引数**
 引数
-|要素名|内容|形式|備考|
-|-|-|-|-|
-|g|GUIの有無|String(「true」or「false」のみ)|true：GUIあり(対人専用)<br>false：GUIなし(ソフトからの操作専用)|
+|要素名|内容|形式|備考|必須|
+|-|-|-|-|-|
+|g|GUIの有無|String(「true」or「false」のみ)|true：GUIあり(対人専用)<br>false：GUIなし(ソフトからの操作専用)|○|
 ** **
 <br>
 
