@@ -23,7 +23,7 @@ URL:[/ydits-api/ydits-account/regist.php](https://api.schnetworks.net/ydits-api/
 
 |要素名|内容|形式|備考|必須|
 |-----|---|----|---|-|
-|name|ユーザ名|String 50文字上限|〇|
+|name|ユーザ名|String 50文字上限||〇|
 |mail|メールアドレス|String 50文字上限|存在しないアドレスの指定不可|〇|
 |pass|パスワード|String 20文字上限||〇|
 ** **
