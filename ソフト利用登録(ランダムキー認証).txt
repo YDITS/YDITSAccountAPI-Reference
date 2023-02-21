@@ -1,0 +1,40 @@
+ソフト利用登録(ランダムキー認証)
+POST
+$_GET['step']=1
+$_POST['mail']
+$_POST['pass']
+Response
+{
+    resultcode:200
+    uuid:指定したユーザのuuid
+    key:{
+            keya:認証用キー(数字のみ)
+            keyc:認証用キー(uuid式)
+        }
+}
+
+ソフト利用登録(固定キー認証&ランダムキー認証キー取得後登録ステップ)
+POST
+$_GET['step']=2
+$_POST['uuid']
+$_POST['key']
+$_POST['softname']
+$_POST['softid']
+Response
+{
+    result:てきすと
+    resultcode:200
+    key:POSTしたキーそのまんま返し
+}
+
+利用確認(両方共通)
+POST
+$_GET['step']=3
+$_POST['uuid']
+$_POST['softid']
+$_POST['key']
+Response
+{
+    result:てきすと
+    resultcode:200
+}
